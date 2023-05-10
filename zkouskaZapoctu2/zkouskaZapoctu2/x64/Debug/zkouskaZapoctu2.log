@@ -1,0 +1,9 @@
+﻿  main.c
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(16,54): warning C4311: přetypování: zkrácení ukazatele z: int * na: int
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(12,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(71,2): warning C4013: strcat nedefinované; předpokládá se extern vracející int.
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(68,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(69,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(75,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\zkouskaZapoctu2\main.c(39): warning C4716: vypisNakupu: musí vracet hodnotu
+  zkouskaZapoctu2.vcxproj -> G:\Můj disk\upce\2. ročník\LS\céčko\zkouskaZapoctu2\x64\Debug\zkouskaZapoctu2.exe

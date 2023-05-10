@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+typedef struct Nakup {
+	int pocetParku;
+	int pocetChlebu;
+}Nakup;
+
+Nakup* nacist(char *nazevSouboru, int* pocetNakupu) {
+	char line[50];
+
+	FILE* input = fopen(nazevSouboru, "r");
+	fgets(line, sizeof(line), input);
+	pocetNakupu = atoi(line);
+
+	Nakup* poleNakupu = (Nakup*)malloc((int)pocetNakupu * sizeof(Nakup*));
+
+	int counter = 0;
+	while (fgets(line, sizeof(line), input) != NULL) {
+		Nakup temp;
+		temp.pocetParku = atoi(line);
+		fgets(line, sizeof(line), input);
+		temp.pocetChlebu = atoi(line);
+		poleNakupu[counter] = temp;
+		counter++;
+	}
+	return poleNakupu;
+}
+
+int main() {
+	int pocetNakupu = 0;
+	
+	Nakup* poleNakupu = nacist("nakupy.txt", pocetNakupu);
+	printf("%d", pocetNakupu);
+	
+	return 0;
+}
